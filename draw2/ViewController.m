@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "PaintViewV03.h"
+
 
 @interface ViewController ()
 
@@ -16,7 +18,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    PaintViewV03 *view  = [[PaintViewV03 alloc] initWithFrame:[[UIScreen mainScreen] bounds] ];
+    [self.view addSubview:view];
 }
 
 - (void)didReceiveMemoryWarning {

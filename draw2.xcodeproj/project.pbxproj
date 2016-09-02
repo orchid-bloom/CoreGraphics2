@@ -15,6 +15,9 @@
 		B68625C71D7921D300D85321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68625C51D7921D300D85321 /* LaunchScreen.storyboard */; };
 		B68625D21D7921D400D85321 /* draw2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68625D11D7921D400D85321 /* draw2Tests.m */; };
 		B68625DD1D7921D400D85321 /* draw2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B68625DC1D7921D400D85321 /* draw2UITests.m */; };
+		B68625EC1D794B5B00D85321 /* PaintViewV03.m in Sources */ = {isa = PBXBuildFile; fileRef = B68625EB1D794B5B00D85321 /* PaintViewV03.m */; };
+		B68625EF1D794C3700D85321 /* BezierStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B68625EE1D794C3700D85321 /* BezierStep.m */; };
+		B68625F21D794C7000D85321 /* PaintStep.m in Sources */ = {isa = PBXBuildFile; fileRef = B68625F11D794C7000D85321 /* PaintStep.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		B68625D81D7921D400D85321 /* draw2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = draw2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B68625DC1D7921D400D85321 /* draw2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = draw2UITests.m; sourceTree = "<group>"; };
 		B68625DE1D7921D400D85321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B68625EA1D794B5B00D85321 /* PaintViewV03.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintViewV03.h; sourceTree = "<group>"; };
+		B68625EB1D794B5B00D85321 /* PaintViewV03.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintViewV03.m; sourceTree = "<group>"; };
+		B68625ED1D794C3700D85321 /* BezierStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BezierStep.h; sourceTree = "<group>"; };
+		B68625EE1D794C3700D85321 /* BezierStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BezierStep.m; sourceTree = "<group>"; };
+		B68625F01D794C7000D85321 /* PaintStep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintStep.h; sourceTree = "<group>"; };
+		B68625F11D794C7000D85321 /* PaintStep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintStep.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +114,12 @@
 				B68625BB1D7921D300D85321 /* AppDelegate.m */,
 				B68625BD1D7921D300D85321 /* ViewController.h */,
 				B68625BE1D7921D300D85321 /* ViewController.m */,
+				B68625EA1D794B5B00D85321 /* PaintViewV03.h */,
+				B68625EB1D794B5B00D85321 /* PaintViewV03.m */,
+				B68625F01D794C7000D85321 /* PaintStep.h */,
+				B68625F11D794C7000D85321 /* PaintStep.m */,
+				B68625ED1D794C3700D85321 /* BezierStep.h */,
+				B68625EE1D794C3700D85321 /* BezierStep.m */,
 				B68625C01D7921D300D85321 /* Main.storyboard */,
 				B68625C31D7921D300D85321 /* Assets.xcassets */,
 				B68625C51D7921D300D85321 /* LaunchScreen.storyboard */,
@@ -271,6 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B68625BF1D7921D300D85321 /* ViewController.m in Sources */,
+				B68625EF1D794C3700D85321 /* BezierStep.m in Sources */,
+				B68625F21D794C7000D85321 /* PaintStep.m in Sources */,
+				B68625EC1D794B5B00D85321 /* PaintViewV03.m in Sources */,
 				B68625BC1D7921D300D85321 /* AppDelegate.m in Sources */,
 				B68625B91D7921D300D85321 /* main.m in Sources */,
 			);
@@ -498,6 +516,7 @@
 				B68625E31D7921D400D85321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68625E41D7921D400D85321 /* Build configuration list for PBXNativeTarget "draw2Tests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +525,7 @@
 				B68625E61D7921D400D85321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B68625E71D7921D400D85321 /* Build configuration list for PBXNativeTarget "draw2UITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +534,7 @@
 				B68625E91D7921D400D85321 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
